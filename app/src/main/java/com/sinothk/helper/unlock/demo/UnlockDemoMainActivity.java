@@ -7,12 +7,12 @@ import android.view.View;
 
 import com.sinothk.helper.unlock.demo.style1.Style1MainActivity;
 
-public class MainActivity extends AppCompatActivity {
+public class UnlockDemoMainActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
+        setContentView(R.layout.unlock_demo_activity_main);
     }
 
     public void onStyle1(View view) {

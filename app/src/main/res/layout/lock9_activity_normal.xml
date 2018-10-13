@@ -19,7 +19,7 @@
             app:lock9_nodeOnAnim="@anim/lock9_node_on_1"
             app:lock9_padding="28dp"
             app:lock9_spacing="28dp"
-            app:lock9_lineColor="@color/lock9_blue_light"
+            app:lock9_lineColor="@color/lock9_line_blue_light"
             app:lock9_lineWidth="8dp"
             app:lock9_autoLink="false"
             app:lock9_enableVibrate="true"
