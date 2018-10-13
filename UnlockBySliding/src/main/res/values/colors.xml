@@ -6,4 +6,7 @@
 
     <color name="lock9_line_red_light">#ffff4444</color>
     <color name="lock9_line_blue_light">#ff33b5e5</color>
+
+    <color name="white">#FFFF</color>
+    <color name="pomegranate">#f4511e</color>
 </resources>

@@ -30,6 +30,7 @@
             android:name=".style1.LStyleActivity"
             android:screenOrientation="portrait"
             android:configChanges="keyboard|keyboardHidden|orientation|screenSize" />
+        <activity android:name=".style2.Style2MainActivity" />
     </application>
 
 </manifest>

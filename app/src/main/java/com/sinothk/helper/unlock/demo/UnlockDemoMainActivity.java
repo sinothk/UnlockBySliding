@@ -6,6 +6,7 @@ import android.os.Bundle;
 import android.view.View;
 
 import com.sinothk.helper.unlock.demo.style1.Style1MainActivity;
+import com.sinothk.helper.unlock.demo.style2.Style2MainActivity;
 
 public class UnlockDemoMainActivity extends AppCompatActivity {
 
@@ -17,5 +18,9 @@ public class UnlockDemoMainActivity extends AppCompatActivity {
 
     public void onStyle1(View view) {
         startActivity(new Intent(this, Style1MainActivity.class));
+    }
+
+    public void onStyle2(View view) {
+        startActivity(new Intent(this, Style2MainActivity.class));
     }
 }
