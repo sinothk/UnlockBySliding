@@ -6,7 +6,7 @@ android {
         applicationId "com.sinothk.helper.unlock.demo"
         minSdkVersion 19
         targetSdkVersion 28
-        versionCode 1
+        versionCode Integer.valueOf(new Date().format('yyyyMMdd', TimeZone.getTimeZone('UTC')))
         versionName "1.0"
         testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
     }

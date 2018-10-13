@@ -3,4 +3,7 @@
     <color name="colorPrimary">#3F51B5</color>
     <color name="colorPrimaryDark">#303F9F</color>
     <color name="colorAccent">#FF4081</color>
+
+    <color name="lock9_red_light">#ffff4444</color>
+    <color name="lock9_blue_light">#ff33b5e5</color>
 </resources>

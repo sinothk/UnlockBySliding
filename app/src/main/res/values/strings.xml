@@ -1,3 +1,6 @@
 <resources>
     <string name="app_name">UnlockBySlidingLib</string>
+
+    <string name="normal_demo">Normal Demo</string>
+    <string name="android_l_style">Android L Style</string>
 </resources>
