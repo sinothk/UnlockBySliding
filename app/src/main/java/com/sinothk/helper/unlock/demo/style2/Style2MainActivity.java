@@ -6,6 +6,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.util.Log;
 import android.view.Window;
 import android.view.WindowManager;
+import android.widget.Toast;
 
 import com.sinothk.helper.unlock.demo.R;
 import com.sinothk.helper.unlock.style2.PatternLockView;
@@ -55,18 +56,20 @@ public class Style2MainActivity extends AppCompatActivity {
             public void onComplete(List<PatternLockView.Dot> pattern) {
                 Log.d(getClass().getName(), "Pattern complete: " + PatternLockUtils.patternToString(mPatternLockView, pattern));
 
+                Toast.makeText(Style2MainActivity.this, "result => " + PatternLockUtils.patternToString(mPatternLockView, pattern), Toast.LENGTH_SHORT).show();
+                mPatternLockView.clearPattern();
 
-                new Handler().postDelayed(new Runnable() {
-                    @Override
-                    public void run() {
-                        runOnUiThread(new Runnable() {
-                            @Override
-                            public void run() {
-                                mPatternLockView.clearPattern();
-                            }
-                        });
-                    }
-                }, 2000);
+//                new Handler().postDelayed(new Runnable() {
+//                    @Override
+//                    public void run() {
+//                        runOnUiThread(new Runnable() {
+//                            @Override
+//                            public void run() {
+//                                mPatternLockView.clearPattern();
+//                            }
+//                        });
+//                    }
+//                }, 2000);
             }
 
             @Override
